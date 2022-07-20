@@ -18,6 +18,7 @@ body{
     border-radius: 10px;
     margin: 20px 0;
 }
+
 .ban-img img{
    width: 100%;
    padding: 0 30px;
@@ -34,12 +35,16 @@ body{
   }
   .banner button{
     padding: 12px 17px;
-    background-color: red;
+    background-color: rgb(0, 255, 4);
     border-radius: 5px;
     color: whitesmoke;
     border: none;
     margin-top: 15px;
 
+  }
+  .banner button:hover{
+    transform: scale(1.5);
+    transition: 1s;
   }
                     /*banner-end*/
 
@@ -169,7 +174,7 @@ body{
                     
                 /*for laotop*/
  
-@media screen and (min-width:600px) and (max-width:992px){
+@media screen and (min-width:600px) and (max-width:1024px){
  
     .bannar-text h1{
         font-size: 1.5rem;
@@ -219,7 +224,7 @@ body{
     display: inline;
     text-decoration: none;
     padding: 10px 30px;
-    background-color: red;
+    background-color: rgb(0, 255, 13);
     margin: 30px auto;
     border-radius: 5px;
     color: aliceblue;
