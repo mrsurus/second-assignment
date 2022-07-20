@@ -1,0 +1,163 @@
+            /*google font*/
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');  
+
+body{
+    margin: 0;
+    
+    font-family: 'Poppins', sans-serif;
+
+}
+.world-cup{
+    margin: 0 10%;
+}
+            /*banner-start*/
+.banner{
+    display: flex;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.ban-img img{
+   width: 100%;
+   padding: 0 30px;
+  }
+  .bannar-text{
+    width: 50%;
+    padding: 30px;
+  }
+  .bannar-text h1{
+    font-size: 3.5rem;
+  }
+  .bannar-text p{
+    font-size: .8rem;
+  }
+  .banner button{
+    padding: 12px 17px;
+    background-color: red;
+    border-radius: 5px;
+    color: whitesmoke;
+    border: none;
+    margin-top: 15px;
+
+  }
+                    /*banner-end*/
+
+                    /*blog start*/
+ .container{
+    display: grid;
+    grid-template-columns: 25% auto;
+    margin: 30px 0;
+ } 
+ .menu{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+ }
+ .menu a{
+    text-decoration: none;
+     margin: 15px 10px;
+     color: black;
+     background-color: aliceblue;
+     padding: 5px 10px;
+     border-radius: 4px;
+
+
+ }
+ .blog{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 30px;
+    gap: 20px;
+    
+ } 
+ .blogs img{
+    width: 100%;
+ } 
+ .blogs button{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+ }
+       
+ .icones {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    font-style: normal;
+ }    
+ .icones i{
+    font-weight: 400;
+ }
+            /*blog end*/
+            /*footer start*/
+ 
+ footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5% 10%;
+    
+ }  
+ footer h2{
+    font-size: 2rem;
+ }  
+ .foot-list a{
+    text-decoration: none;
+    color: white;
+    margin: 30px;
+    font-size: .8rem;
+ }    
+ .foot-list{
+    margin-top: 15px;
+ }   
+    hr{
+        margin-top: 5%;
+        border-bottom: none;
+    }
+
+                    /*footer end*/
+                    /*media queires*/
+  @media screen and (max-width: 667px) {
+    .banner{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .bannar-text{
+        width: auto;
+        text-align: center;
+    }
+
+    .bannar-text h1{
+        font-size: 1.5rem;
+        
+    }
+    .ban-img{
+        width: 100%;
+    }
+    .ban-img img{
+        width: 100%;
+        padding: 10px;
+    }
+    .container{
+        grid-template-columns: auto;
+    }
+    .menu{
+        background: none;
+    }
+    .blog{
+        grid-template-columns: auto;
+        margin: 0;
+    }
+    .foot-list{
+        display: flex;
+        flex-direction: column;
+    }
+    
+  }                  
