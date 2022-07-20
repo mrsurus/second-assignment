@@ -63,6 +63,7 @@ body{
     text-align: center;
     padding: 20px;
     border-radius: 5px;
+    
  }
  .menu a{
     text-decoration: none;
@@ -129,6 +130,15 @@ body{
         border-bottom: none;
     }
 
+    
+    .s-icone i{
+        margin: 30px;
+        font-size: larger;
+        color: rgb(12, 75, 157);
+        
+        
+    }
+
                     /*footer end*/
 
                     /* for mobile */
@@ -169,6 +179,10 @@ body{
         display: flex;
         flex-direction: column;
     }
+    .s-icone{
+        display: flex;
+        flex-direction: column;
+    }
     
   }               
                     
@@ -205,6 +219,7 @@ body{
         background: none;
         height: auto;
         text-align: center;
+        
     }
     .menu a{
         height: 30px;
