@@ -94,6 +94,9 @@ body{
  .icones i{
     font-weight: 400;
  }
+ .hide{
+    display: none;
+ }
             /*blog end*/
             /*footer start*/
  
@@ -122,8 +125,10 @@ body{
     }
 
                     /*footer end*/
-                    /*media queires*/
-  @media screen and (max-width: 667px) {
+
+                    /* for mobile */
+
+  @media screen and (max-width: 600px) {
     .banner{
         flex-direction: column;
         text-align: center;
@@ -142,7 +147,7 @@ body{
         width: 100%;
     }
     .ban-img img{
-        width: 100%;
+        width: 90%;
         padding: 10px;
     }
     .container{
@@ -160,4 +165,68 @@ body{
         flex-direction: column;
     }
     
-  }                  
+  }               
+                    
+                /*for laotop*/
+ 
+@media screen and (min-width:600px) and (max-width:992px){
+ 
+    .bannar-text h1{
+        font-size: 1.5rem;
+        
+    }
+    .ban-img{
+        width: 100%;
+    }
+    .ban-img img{
+        width: 90%;
+        padding: 10px;
+    } 
+    .bannar-text{
+        width: 100%;
+        padding-right: 0;
+
+    }
+
+    .bannar-text p{
+        font-size: .7rem;
+    }    
+    .container{
+        grid-template-columns: auto;
+        
+    }
+    .menu{
+        flex-direction: row;
+        background: none;
+        height: auto;
+        text-align: center;
+    }
+    .menu a{
+        height: 30px;
+        padding: 5px 30px;
+     }
+    .blog{
+        grid-template-columns: auto auto;
+        margin: 0;
+    }
+    .foot-list a{
+        padding: 10px;
+    }
+   #i-hide{
+    display: none;
+   }
+   .hide {
+    display: inline;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: red;
+    margin: 30px auto;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: larger;
+   }
+   .foot-list a{
+    margin: 10px;
+   }
+    
+  }         
